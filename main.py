@@ -9,15 +9,13 @@ import math
 view = [0,
         0,
         1];
-ambient = [50,
-           50,
-           50]
+ambient = [75,
+           75,
+           75]
 light = [[0.5,
           0.75,
           1],
-         [0,
-          255,
-          255]]
+         [0, 255, 255]]
 areflect = [0.1,
             0.1,
             0.1]
@@ -41,3 +39,4 @@ csystems = [ t ]
 
 
 parse_file( 'script', edges, polygons, csystems, screen, zbuffer, color, view, ambient, light, areflect, dreflect, sreflect)
+#parse_file( 'myscript', edges, polygons, csystems, screen, zbuffer, color, view, ambient, light, areflect, dreflect, sreflect)
